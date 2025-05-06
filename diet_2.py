@@ -134,15 +134,7 @@ def main():
         """,
         unsafe_allow_html=True
     )
-  st.markdown(
-        """
-        <h3 style="color:SeaShell; text-align:center;">About Us</h3>
-        <p style="color:SeaShell; text-align:center;">
-        At Unstoppable Fitness, we believe in the power of transformation! Whether you're looking to lose weight, gain muscle, or simply maintain a healthy lifestyle, we are here to guide you every step of the way. Our fitness plans are tailored to your individual needs and goals. Join the movement and start your fitness journey with us today!
-        </p>
-        """,
-        unsafe_allow_html=True
-    )
+
     weight = st.number_input("Enter your weight (kg):", min_value=10.0, max_value=185.0, step=0.5,)
     height_cm = st.number_input("Enter your height (cm):", min_value=50.0, max_value=250.0, step=0.5)
 
